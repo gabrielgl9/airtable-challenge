@@ -1,0 +1,30 @@
+.timelineContainer {
+  width: 98%;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  user-select: none;
+  font-family: sans-serif;
+}
+
+.timelineHeader {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.timelineHeaderMonth {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  font-weight: bold;
+  background-color: #d0d0d0;
+}
+
+.timelineLanes {
+  position: relative;
+}
+
+.timelineLane {
+  border-bottom: 1px solid #ddd;
+  overflow: visible;
+}
